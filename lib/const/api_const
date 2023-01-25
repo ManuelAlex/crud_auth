@@ -1,0 +1,11 @@
+class ApiConstants{
+  static const String baseUrl = 'https://demoapi.ppleapp.com/api/vi/user';
+  static const String createUserEndpoint = '/create-user';
+  static const String verifyUserEndpoint = '/verify-user';
+  static const String changeUserPwEndpoint = '/change-password';
+  static const String loginUsersEndpoint = '/login-user';
+  static const String userProfileEndpoint = '/user-profile-by-id';
+  static const String editUsersAvatarEndpoint = '/edit-profile-avatar';
+  static const String deleteUsersEndpoint = '/delete-account';
+  
+}
